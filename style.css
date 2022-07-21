@@ -347,6 +347,8 @@ footer{
         display: grid;
         grid-template-columns: 380px 380px;
         grid-gap: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
         background-color: #161616;
         border-radius: 20px;
         width: 800px;

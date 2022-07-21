@@ -346,7 +346,7 @@ footer{
     .head{
         display: grid;
         grid-template-columns: 380px 380px;
-        grid-gap: 50px;
+        grid-gap: 0px;
         margin-left: 20px;
         margin-right: 20px;
         background-color: #161616;

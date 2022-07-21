@@ -105,12 +105,17 @@ a{
 }
 .notflex{
     width: 312px;
-    height: 362px;
+    height: 200px;
     margin-left: 24px;
     border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: darkgray;
 }
 .notflex span{
     display: flex;
+    align-items: flex-end;
 }
 .notflex span h3{
     margin: 10px;
@@ -120,8 +125,7 @@ a{
     justify-content: center;
 }
 .notflex h2{
-    display: grid;
-    justify-content: center;
+    margin-bottom: 0;
 }
 
 /* --------------

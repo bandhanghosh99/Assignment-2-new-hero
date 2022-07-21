@@ -81,7 +81,9 @@ body{
     width: 312px;
     height: 200px;
 }
-h2{
+a{
+    text-decoration: none;
+    color: black;
     width: 252px;
     height: 30px;
     font-size: 20px;
@@ -92,8 +94,7 @@ h2{
     background-color: #FFFFFF;
     text-align: center;
 }
-
-#h2-red{
+#a2-red{
     color: #FFFFFF;
     background-color: red;
     margin-bottom: 17px;
@@ -250,7 +251,7 @@ footer{
         height: 200px;
         margin-bottom: 20px;
     }
-    h2{
+    a{
         width: 252px;
         height: 30px;
         font-size: 20px;
@@ -261,7 +262,7 @@ footer{
         text-align: center;
     }
 
-    #h2-red{
+    #a2-red{
         color: #FFFFFF;
         background-color: red;
         margin-bottom: 17px;
@@ -392,7 +393,7 @@ footer{
         width: 312px;
         height: 200px;
     }
-    h2{
+    a{
         width: 252px;
         height: 30px;
         font-size: 20px;
@@ -404,7 +405,7 @@ footer{
         text-align: center;
     }
 
-    #h2-red{
+    #a2-red{
         color: #FFFFFF;
         background-color: red;
         margin-bottom: 17px;

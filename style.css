@@ -327,7 +327,7 @@ footer{
     }
 }
 
-@media only screen and (min-width: 661px) and (max-width: 992) {
+@media only screen and (min-width: 661px) and (max-width: 992px) {
     /* ---body--- */
     body{
         display: grid;
@@ -340,41 +340,50 @@ footer{
 
     .for-margin{
         margin-top: 30px;
+        display: grid;
+        justify-content: center;
     }
     .head{
         display: grid;
-        grid-template-columns: 40% 40% ;
-        grid-gap: 30px;
-        width: 90%;
-        height: 70%;
+        grid-template-columns: 380px 380px;
+        grid-gap: 50px;
+        background-color: #161616;
+        border-radius: 20px;
+        width: 800px;
+        height: 412px;
     }
     #text{
-        margin-left: 40px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .football{
-        color: white;
-        width: 40%;
-        height: 460px;
+        width: 380px;
+        height: 420px;
     }
     .football h1{
-        margin-top: 0px;
-        margin-bottom: 20px;
         font-size: 50px;
     }
     .football p{
-        font-size: 16px;
-        margin-bottom: 30px;
-        width: 40%;
-        height: 69px;
+        width: 380px;
     }
     .football img{
-        width: 40%px;
-        height: 40%px;
-        margin-top: 22px;
-        margin-left: 14px;
-        margin-right: 29px;
+        width: 380px;
+        height: 380px;
+        background-position: right;
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-right: 0px;
+    }
+    .football a{
+        text-decoration: none;
+        background-image: linear-gradient(brown, chocolate);
+        color: white;
+        font-weight: 800;
+        padding: 16px 25px;
+        border-radius: 5px;
+        width: 187px;
+        height: 56px;
     }
 
     /* --------------
@@ -382,18 +391,27 @@ footer{
     -------------- */
 
     .flex-container{
-        margin-top: 80px;
+        margin-top: 50px;
         display: grid;
+        grid-template-columns: repeat(1, 800px);
+        height: 1900px;
         justify-content: center;
-        margin-bottom: 80px;
+        align-items: center;
+        margin-bottom: 50px;
     }
     .upcoming{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #161616;
         border-radius: 10px;
-        width: 312px;
-        height: 200px;
+        width: 700px;
+        height: 30px;
+        margin-bottom: 40px;
     }
     a{
+        text-decoration: none;
+        color: black;
         width: 252px;
         height: 30px;
         font-size: 20px;
@@ -404,7 +422,6 @@ footer{
         background-color: #FFFFFF;
         text-align: center;
     }
-
     #a2-red{
         color: #FFFFFF;
         background-color: red;
@@ -415,7 +432,7 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
     .notflex{
-        width: 312px;
+        width: 320px;
         height: 362px;
         margin-left: 24px;
         border-radius: 10px;
@@ -471,6 +488,7 @@ footer{
     }
     footer{
         display: grid;
+        justify-content: center;
         grid-template-columns: repeat(4, 1fr); 
     }
 }
